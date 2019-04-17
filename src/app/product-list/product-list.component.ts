@@ -8,7 +8,7 @@ import {Product} from '../product';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-  uctListComponen
+  
   products: Product[];
 
   constructor(private _productService: ProductService) { }
